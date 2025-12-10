@@ -9,5 +9,6 @@ spec = Gem::Specification.new do |s|
   s.extra_rdoc_files = ["MIT-LICENSE"]
   s.require_paths = ["lib"]
   s.rdoc_options = %w'--inline-source --line-numbers README lib'
+  s.add_dependency "net-smtp"
   s.add_development_dependency "minitest-global_expectations"
 end
